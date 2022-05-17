@@ -70,7 +70,7 @@ def configcell_text_and_colors(
         # text to ADD
         font_prop = fm.FontProperties(weight="bold", size=fz)
         text_kwargs = dict(
-            color="w",
+            color="k",
             ha="center",
             va="center",
             gid="sum",

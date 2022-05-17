@@ -68,7 +68,7 @@ def configcell_text_and_colors(
         text_del.append(oText)
 
         # text to ADD
-        font_prop = fm.FontProperties(font='Times New Roman', weight="bold", size=fz)
+        font_prop = fm.FontProperties(weight="bold", size=fz)
         text_kwargs = dict(
             color="k",
             ha="center",

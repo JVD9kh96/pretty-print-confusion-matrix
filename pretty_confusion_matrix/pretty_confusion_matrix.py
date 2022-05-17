@@ -187,7 +187,7 @@ def pp_matrix(
         ax=ax1,
         cbar=cbar,
         cmap=cmap,
-        linecolor="w",
+        linecolor="k",
         fmt=fmt,
     )
 

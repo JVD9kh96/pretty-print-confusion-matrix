@@ -68,7 +68,7 @@ def configcell_text_and_colors(
         text_del.append(oText)
 
         # text to ADD
-        font_prop = fm.FontProperties(weight="bold", size=fz)
+        font_prop = fm.FontProperties(font='Times New Roman', weight="bold", size=fz)
         text_kwargs = dict(
             color="k",
             ha="center",
@@ -238,6 +238,7 @@ def pp_matrix(
     ax.set_xlabel(xlbl)
     ax.set_ylabel(ylbl)
     plt.tight_layout()  # set layout slim
+    plt.savefig('conf_matrix.pdf')
     plt.show()
 
 
